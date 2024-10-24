@@ -1,0 +1,11 @@
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "CHROME_EXECUTABLE_PATH": "/usr/bin/chromium-browser"
+  }
+}
